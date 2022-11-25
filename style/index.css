@@ -5,6 +5,8 @@ height: 2346px;
 background: #FFFFFF;
 font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
+margin-left: auto;
+margin-right: auto;
 }
 
 .header{
@@ -33,6 +35,7 @@ text-decoration: none;
 padding: 10px;
 color: rgba(33, 150, 243, 1);
 }
+
 .header-web-1{
     color: #212121;
 }
@@ -46,7 +49,7 @@ list-style: none;
 .header_contact{
     align-items: center;
     justify-content: center;
-    /* margin-left: auto;     */
+    /* margin-left: auto;*/
     margin-left: 600px;
 }
 
@@ -193,7 +196,7 @@ list-style: none;
 }
 
 .main_section_three-h2{
-width: 366px;
+width: 370px;
 height: 42px;
 font-family: 'Roboto';
 font-style: normal;
@@ -214,7 +217,7 @@ background-color: #F5F4FA;
 }
 
 .main_section_four-h2{
-width: 264px;
+width: 270px;
 height: 42px;
 font-family: 'Roboto';
 font-style: normal;
