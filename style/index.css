@@ -1,5 +1,4 @@
 body{
-
 width: 1600px;
 height: 2346px;
 background: #FFFFFF;
@@ -84,7 +83,6 @@ top: 80px;
 background: #2F303A;
 text-align: center;
 /* justify-content: center; */
-
 }
 
 .main_h1{
@@ -230,8 +228,7 @@ padding-top: 100px;
 
 .main_section_four_img{
     list-style: none;
-    display: flex;
-    
+    display: flex;    
 }
 
 .main_section_four-li{
