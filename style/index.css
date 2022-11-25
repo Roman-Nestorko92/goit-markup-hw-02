@@ -1,3 +1,4 @@
+
 body{
 width: 1600px;
 height: 2346px;
@@ -14,6 +15,7 @@ top: 0px;
 background: #FFFFFF;
 display: flex;
 text-align: center;
+padding-left: 100px;
 }
 
 .header-web{
@@ -44,7 +46,8 @@ list-style: none;
 .header_contact{
     align-items: center;
     justify-content: center;
-    margin-left: auto;    
+    /* margin-left: auto;     */
+    margin-left: 600px;
 }
 
 .header_li{
