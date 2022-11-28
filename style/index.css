@@ -1,32 +1,23 @@
 
-body{
-width: 1600px;
-height: 2346px;
-background: #FFFFFF;
-font-family: 'Raleway', sans-serif;
+body{    
+background-color: #FFFFFF;
 font-family: 'Roboto', sans-serif;
-margin-left: auto;
-margin-right: auto;
+font-size: 14px;
+color: #212121;
 }
+
 
 .header{
 width: 1600px;
 height: 60px;
-left: 0px;
-top: 0px;
 background: #FFFFFF;
 display: flex;
 text-align: center;
 padding-left: 100px;
+
 }
 
 .header-web{
-width: 145px;
-height: 31px;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
 text-decoration: none;
@@ -38,28 +29,28 @@ color: rgba(33, 150, 243, 1);
     color: #212121;
 }
 
-.header_info{
+.header_nav{
 width: 281px;
 height: 16px;
 list-style: none;
 }
 
-.header_contact{
-    align-items: center;
-    justify-content: center;    
-    margin-left: 600px;
+.header_nav_menu{
+    display: flex;    
 }
+
+.header_contact{
+  padding-left: 40%;
+}
+
 
 .header_li{
 display: inline;
 padding: 10px;
 }
 
-.header_link{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
+.contact_link{    
+    font-weight: 500;    
     line-height: 16px;
     letter-spacing: 0.02em;    
     color: #212121;
@@ -69,39 +60,30 @@ padding: 10px;
 .link-1{
 width: 45px;
 height: 16px;
-color: #2196F3;
 }
 
 .link-2{
 width: 135px;
 height: 16px;
-color: #2196F3;
 }
 
 .main_section_one{
 width: 1600px;
 height: 600px;
-left: 0px;
-top: 80px;
 background: #2F303A;
 text-align: center;
 }
 
-.main_h1{
-width: 696px;
-height: 120px;
-font-family: 'Roboto';
-font-style: normal;
+.main_title{
+width: 650px;
 font-weight: 900;
 font-size: 44px;
 line-height: 60px;
-text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
-margin-left: auto;
-margin-right: auto;
-padding-top: 200px;
+padding-top: 150px;
+padding-left: calc(50% - 300px);
 }
 
 .main_buttom{
@@ -121,15 +103,14 @@ color: #FFFFFF;
 }
 
 .main_section_two{
-width: 1170px;
-height: 98px;
-margin-left: auto;
-margin-right: auto;
+width: 1600px;
+height: 100px;
 }
 
 .main_section_two_text{
 display: flex;
 list-style: none;
+padding-left: 250px;
 }
 
 .main_section_two_p{
@@ -149,12 +130,7 @@ height: 98px;
     height: 98px;
 }
 
-.main_section_two-h3{
-    width: 270px;
-    height: 16px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
+.main_about-title{    
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
@@ -162,23 +138,15 @@ height: 98px;
     color: #212121;
 }
 
-.main_section_two__p{
-    width: 270px;
-    height: 72px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
+.main_about-text{
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #757575;
 }
 
 .main_section_three{
-    width: 1180px;
-    height: 386px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 1600px;
+    height: 386px;    
     margin-top: 100px;
 }
 
@@ -189,58 +157,52 @@ height: 98px;
 
 .main_section_three_img{
 list-style: none;
+text-align: center;
 }
 
-.main_section_three-h2{
-width: 370px;
-height: 42px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
+
+.main_section_title{
 font-size: 36px;
 line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
-margin-left: auto;
-margin-right: auto;
 }
 
 .main_section_four{
 width: 1600px;
-height: 648px;
+height: 600px;
 background-color: #F5F4FA;
+padding-top: 50px;
 }
 
-.main_section_four-h2{
-width: 270px;
-height: 42px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
+.main_section_title{
 font-size: 36px;
 line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
-margin-right: auto;
-margin-left: auto;
-padding-top: 100px;
 }
 
-.main_section_four_img{
+.main_team-title{
     list-style: none;
-    display: flex;    
+    display: flex; 
+    justify-content: center;  
 }
 
-.main_section_four-li{
-display: inline;
-margin-left: auto;
-margin-right: auto;
+.main_team-box{
+    background-color: #FFFFFF;
+    width: 270px;
+    height: 370px;
+    margin: 10px;
+}
+
+.main_team-name{
 text-align: center;
-background: #FFFFFF;
-width: 270px;
-height: 370px;
+}
+
+.team-position{
+text-align: center;
 }
 
 .footer_contact{
@@ -277,12 +239,7 @@ margin-left: 250px;
 }
 
 .footer_contact-lii{
-width: 231px;
-height: 21px;
-font-family: 'Roboto';
 font-style: normal;
-font-weight: 400;
-font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
 color: #FFFFFF;
@@ -290,15 +247,11 @@ text-decoration: none;
 }
 
 .footer_contact-li{
-text-decoration: none;
-width: 231px;
-height: 21px;
-font-family: 'Roboto';
 font-style: normal;
-font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
 }
 
