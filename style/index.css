@@ -17,14 +17,17 @@ body{
         display: flex;
     }
     
-    .header__link{
+    
+    .contact_stydio{
+    text-decoration: none;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
-    padding-right: 50px;
+    padding-right: 50px;  
+    color: rgba(0, 0, 0, 1);
     }
     
     .header-web-1{
@@ -41,9 +44,10 @@ body{
     
     .contact_link{
         text-decoration: none;
-        color: #212121;
+        color:#757575;
+        font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: calc(16 / 14);
         letter-spacing: 0.02em; 
         margin-right: 10px;   
     }
@@ -81,9 +85,11 @@ body{
     font-family: inherit;
     font-style: normal;
     font-weight: 700;
+    font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    cursor: pointer;
     }
     
     .main_section_two{
@@ -238,7 +244,7 @@ body{
     
     
     
-    /* portfolio */
+    /* -----------------portfolio------------------ */
     
     
     
