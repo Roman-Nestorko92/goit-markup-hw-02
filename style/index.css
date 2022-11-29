@@ -22,7 +22,7 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: calc(31 / 26);
     letter-spacing: 0.03em;
     padding-right: 50px;
     }
@@ -35,7 +35,7 @@ body{
         list-style: none;
     }
     
-    .header_li{
+    .header_item{
         display: inline;
     }
     
@@ -59,11 +59,11 @@ body{
     text-align: center;
     }
     
-    .main_title{
+    .hero_title{
     width: 650px;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: calc(60px / 44px);
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -71,18 +71,17 @@ body{
     padding-left: calc(50% - 300px);
     }
     
-    .main_buttom{
+    .hero_buttom{
     width: 216px;
     height: 50px;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: #2196F3;
-    font-family: 'Roboto';
+    font-family: inherit;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
+    line-height: calc(30 / 16);
     letter-spacing: 0.06em;
     color: #FFFFFF;
     }
@@ -116,8 +115,7 @@ body{
     }
     
     .main_about-title{    
-        font-size: 14px;
-        line-height: 16px;
+        line-height: calc(16 / 14);
         letter-spacing: 0.03em;
         text-transform: uppercase;    
         color: #212121;
@@ -162,8 +160,7 @@ body{
     }
     
     .main_section_title{
-    font-size: 36px;
-    line-height: 42px;
+    line-height: calc(42 / 36);
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -225,7 +222,7 @@ body{
     
     .footer_contact-lii{
     font-style: normal;
-    line-height: 24px;
+    line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: #FFFFFF;
     text-decoration: none;
@@ -233,8 +230,7 @@ body{
     
     .footer_contact-li{
     font-style: normal;
-    font-size: 14px;
-    line-height: 24px;
+    line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
